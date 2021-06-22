@@ -1,0 +1,36 @@
+.card {
+    width: 290px;
+    border-radius: 1px;
+    box-shadow: 0px 3px 4px 0 #0000007d;
+}
+.image{
+    background: url(../img/dogo.jpeg) top center no-repeat;
+    background-size: cover ;
+    height: 290px;
+}
+.card:hover{
+    box-shadow: 0px 3px 18px 0 rgba(0,0,0,60%);
+    
+}
+.card-details {
+    background-color: #ffffff;
+    padding: 18px 16px;
+}
+.title {
+    font-size: 15px;
+    color: #0f5ef0;
+    margin-top: 2px;
+}
+
+.name{
+    font-size: 12px;
+    margin-top: 18px;
+    font-weight: bold;
+    color: #7A8594;
+    text-transform: uppercase;
+}
+.modify-details{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #7a8594db;
+}
